@@ -1,0 +1,22 @@
+{
+    "basics":{
+        "name":"Chinnu",
+        "role":"Student",
+        "email":"manu2301@gmail.com",
+        "mobile":"+91 6309696901",
+        "education":[
+            {
+                "degree":"SSC",
+                "percentage":9.3
+            },
+            {
+                "degree":"INTER",
+                "percentage":9.4
+            },
+            {
+                "degree":"B.Tech",
+                "percentage":8.2
+            }
+        ]
+    }
+}

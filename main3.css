@@ -1,0 +1,23 @@
+.main-section{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#article-left{
+    text-align: center;
+    height: 410px;
+    width: 300px;
+    background-color:grey;
+}
+#article-right{
+    text-align-last: left;
+    height: 2000px;
+    margin: 10px;
+    width: 100%;
+    background-color: bisque;
+    margin-left: 5px;
+}
+@media (min-device-width:320px) and (max-device-width:460px)
+{
+    
+}

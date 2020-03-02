@@ -1,0 +1,53 @@
+.a{
+    width: 100%;
+    background:rgb(15, 15, 15);
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+#b,#c{
+    text-align: center;
+    width: 25%;
+    border-radius: 5% 0% ;
+    background: orangered;
+    margin-top: 2%;
+    margin-bottom: 2%;   
+}
+/* 
+phone
+@media(min-device-width:320px) and (max-device-width:460px){
+    .a{
+        width: 100%;
+       background-color: white;
+    }
+    #b,#c{
+        width: 100%;
+        border-radius: 5% 5%;
+    }
+} */
+/* tabletform */
+@media(min-device-width:760px) and (max-device-width:1024px){
+    .a{
+        width: 100%;
+    }
+    #b,#c{
+
+        width: 80%;
+        display: flex;
+        text-align: center; 
+    }
+    img{
+        padding-left: 60px;
+        padding-bottom: 20px;
+    }
+    #d,#e{
+        padding-right: 50px;
+        padding-top: 45px;
+    }
+    
+   
+}
+
